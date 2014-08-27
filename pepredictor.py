@@ -276,11 +276,11 @@ class PePredictor:
         return (predictedTicker, predictedValue)
 
         
-#Unit Test of Spyder Class
+#Unit Test of PEPredictor Class
 startTime = datetime.now()
 print(startTime.strftime('%H:%M:%S %m/%d/%Y') + " :: Starting Predictor")
 #Replace with file path of SP500 CSV file
-filepath = "/Users/Viju/Dropbox/PythonWorkSpace/SP500_Analysis/"
+filepath = "../../PEPredictor/"
 #For SP500 CSV file
 filename = "SP500_Data.csv"
 filename = filepath + filename
