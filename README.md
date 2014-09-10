@@ -5,6 +5,6 @@ Parses through a CSV file containing Stock Attributes (Return, Volatility, Relat
 
 To Do:
 
-1) Use Pandas to setup the dataframes and format them.
+1) Plot a pie chart for the influencing neighbors with their relavent percentage influences.
 
-2) Plot a pie chart for the influencing neighbors with their relavent percentage influences.
+2) Implement a webservice call to retrieve real time CSV files containing the data from FinViz.
