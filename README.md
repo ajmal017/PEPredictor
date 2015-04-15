@@ -1,10 +1,4 @@
 PEPredictor
 ===========
 
-Parses through a data file containing attributes (Return, Volatility, Relative Strength etc) for Equity Tickers. Uses the KNN algorithm to find the nearest neighbor for a given stock and determines its Predicted fundamental ratios (P/E, P/B and P/S). Also generates a 95% price confidence range using yearly volatility for the equity.
-
-To Do:
-
-1) Plot a pie chart for the influencing neighbors with their relevant percentage influences.
-
-2) Implement a webservice call to retrieve real time CSV files containing the data.
+The project parsed through a data file containing 70 fundamental / momentum attributes (Returns, Volatility, RSI etc) for ~2200 US Equity Tickers and use KNN algorithm to find the nearest neighbor for a given stock and determines its Predicted fundamental ratios (P/E, P/B and P/S). Also generated a 95% confidence range for price using yearly volatility of the equity. Later improvements, as a part of the Data Science capstone project @ General Assembly, took advantage of the Pandas and Gradient Boosted Regression Techniques from Scikit learn. 
